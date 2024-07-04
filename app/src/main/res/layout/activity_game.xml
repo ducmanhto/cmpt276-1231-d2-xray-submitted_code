@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+        <ImageButton
+            android:id="@+id/exit_game_button"
+            android:layout_marginLeft="8dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/exit_white_icon"
+            android:text="@string/exit_button" />
+
+        <TextView
+            android:id="@+id/selected_word"
+            android:layout_width="246dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@id/exit_game_button"
+            android:fontFamily="@font/poppinsbold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#FFFFFF" />
+
+        <ImageButton
+            android:id="@+id/hint_button"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/hint_white_icon"
+            android:layout_toLeftOf="@id/submit_puzzle_button"
+            android:text="@string/hint_button" />
+
+        <ImageButton
+            android:id="@+id/submit_puzzle_button"
+            android:layout_marginRight="8dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/submit_white_icon"
+            android:layout_alignParentRight="true"
+            android:text="@string/submit_button" />
+
+        <TableLayout
+            android:id="@+id/sudokuboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/submit_puzzle_button"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom= "true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="10dp"
+            >
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/wordBank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom= "true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="10dp"
+            >
+        </TableLayout>
+
+
+        <Button
+            android:id="@+id/clear_button"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@id/wordBank"
+            android:background="@drawable/dark_grey_rounded_button"
+            android:text="Clear"
+            android:textColor="@color/white"
+
+            />
+
+
+
+</RelativeLayout>

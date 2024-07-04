@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">sudoku-vocab</string>
+    <string name="back_button">Back</string>
+    <string name="word_lists_text">Word Lists</string>
+    <string name="numbers_button">Numbers</string>
+    <string name="colours_button">Colours</string>
+    <string name="food_button">Food</string>
+    <string name="dates_button">Dates</string>
+    <string name="places_button">Places</string>
+    <string name="weather_button">Weather</string>
+    <string name="language_difficulty_text">Language Difficulty</string>
+    <string name="easy_button">Easy</string>
+    <string name="medium_button">Medium</string>
+    <string name="hard_button">Hard</string>
+    <string name="random_button">Random</string>
+    <string name="puzzle_difficulty_text">Puzzle Difficulty</string>
+    <string name="normal_button">Normal</string>
+    <string name="difficult_button">Difficult</string>
+    <string name="language_mode_text">Language Mode</string>
+    <string name="english_button">English</string>
+    <string name="french_button">French</string>
+    <string name="generate_puzzle_button">Generate Puzzle</string>
+    <string name="main_menu">Vocabulary Sudoku App</string>
+    <string name="play">Play</string>
+    <string name="exit_button">Exit</string>
+    <string name="hint_button">Hint</string>
+    <string name="submit_button">Submit</string>
+    <string name="clear_button">Clear</string>
+</resources>
+

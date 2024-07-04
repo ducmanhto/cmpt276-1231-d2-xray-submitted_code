@@ -1,0 +1,13 @@
+{
+  "ColourListEnglish": ["red", "orange", "yellow", "green", "blue",
+    "purple", "pink", "white", "brown", "grey", "black"],
+
+  "ColourListFrench": ["rouge", "orange", "jaune", "vert", "bleu",
+    "violet", "rose", "blanc", "brun", "gris", "noir"],
+
+  "AnimalListEnglish": ["dog", "cat", "bird", "fish", "horse",
+    "wolf", "pig", "lion", "bear", "cow", "ape", "sheep", "tiger"],
+
+  "AnimalListFrench": ["chien", "chat", "oiseau", "poisson", "cheval",
+    "loup", "cochon", "lion", "ours", "vache", "singe", "mouton", "tigre"]
+}

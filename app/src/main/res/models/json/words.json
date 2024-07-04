@@ -1,0 +1,297 @@
+{
+  "Numbers": {
+    "one": {
+      "English": "One",
+      "French": "Un"
+    },
+    "two": {
+      "English": "Two",
+      "French": "Deux"
+    },
+    "three": {
+      "English": "Three",
+      "French": "Trois"
+    }
+  },
+  "Colors": {
+    "blue": {
+      "English": "Blue",
+      "French": "Bleu"
+    },
+    "green": {
+      "English": "Green",
+      "French": "Vert"
+    },
+    "black": {
+      "English": "Black",
+      "French": "Noir"
+    },
+    "white": {
+      "English": "White",
+      "French": "Blanc"
+    },
+    "gray": {
+      "English": "Gray",
+      "French": "Gris"
+    },
+    "brown": {
+      "English": "Brown",
+      "French": "Marron"
+    },
+    "pink": {
+      "English": "Pink",
+      "French": "Rose"
+    },
+    "red": {
+      "English": "Red",
+      "French": "Rouge"
+    },
+    "dark blue": {
+      "English": "Dark Blue",
+      "French": "Bleu Foncé"
+    },
+    "light blue": {
+      "English": "Light Blue",
+      "French": "Bleu Clair"
+    },
+    "dark green": {
+      "English": "Dark Green",
+      "French": "Vert Foncé"
+    },
+    "light green": {
+      "English": "Light Green",
+      "French": "Vert Clair"
+    },
+    "dark yellow": {
+      "English": "Dark Yellow",
+      "French": "Jaune Foncé"
+    },
+    "light yellow": {
+      "English": "Light Yellow",
+      "French": "Jaune Clair"
+    },
+    "dark orange": {
+      "English": "Dark Orange",
+      "French": "Orange Foncé"
+    },
+    "light orange": {
+      "English": "Light Orange",
+      "French": "Orange Clair"
+    }
+},
+  "Food": {
+    "apple": {
+      "English": "Apple",
+      "French": "Pomme"
+    },
+    "banana": {
+      "English": "Banana",
+      "French": "Banane"
+    },
+    "bread": {
+      "English": "Bread",
+      "French": "Pain"
+    },
+    "cheese": {
+      "English": "Cheese",
+      "French": "Fromage"
+    },
+    "chicken": {
+      "English": "Chicken",
+      "French": "Poulet"
+    },
+    "egg": {
+      "English": "Egg",
+      "French": "Oeuf"
+    },
+    "fish": {
+      "English": "Fish",
+      "French": "Poisson"
+    },
+    "hamburger": {
+      "English": "Hamburger",
+      "French": "Hamburger"
+    },
+    "hot dog": {
+      "English": "Hot Dog",
+      "French": "Hot-Dog"
+    },
+    "ice cream": {
+      "English": "Ice Cream",
+      "French": "Crème Glacée"
+    },
+    "juice": {
+      "English": "Juice",
+      "French": "Jus"
+    },
+    "lemon": {
+      "English": "Lemon",
+      "French": "Citron"
+    },
+    "orange": {
+      "English": "Orange"
+    },
+    "pizza": {
+      "English": "Pizza",
+      "French": "Pizza"
+    },
+    "potato": {
+      "English": "Potato",
+      "French": "Pomme de Terre"
+    },
+    "sandwich": {
+      "English": "Sandwich",
+      "French": "Sandwich"
+    },
+    "sausage": {
+      "English": "Sausage",
+      "French": "Saucisse"
+    },
+    "steak": {
+      "English": "Steak",
+      "French": "Steak"
+    },
+    "sugar": {
+      "English": "Sugar",
+      "French": "Sucre"
+    },
+    "toast": {
+      "English": "Toast",
+      "French": "Toast"
+    },
+    "tomato": {
+      "English": "Tomato",
+      "French": "Tomate"
+    },
+    "watermelon": {
+      "English": "Watermelon",
+      "French": "Pastèque"
+    }
+  },
+  "Dates": {
+    "january": {
+      "English": "January",
+      "French": "Janvier"
+    },
+    "february": {
+      "English": "February",
+      "French": "Février"
+    },
+    "march": {
+      "English": "March",
+      "French": "Mars"
+    },
+    "april": {
+      "English": "April",
+      "French": "Avril"
+    },
+    "may": {
+      "English": "May",
+      "French": "Mai"
+    },
+    "june": {
+      "English": "June",
+      "French": "Juin"
+    },
+    "july": {
+      "English": "July",
+      "French": "Juillet"
+    },
+    "august": {
+      "English": "August",
+      "French": "Août"
+    },
+    "september": {
+      "English": "September",
+      "French": "Septembre"
+    },
+    "october": {
+      "English": "October",
+      "French": "Octobre"
+    },
+    "november": {
+      "English": "November",
+      "French": "Novembre"
+    },
+    "december": {
+      "English": "December",
+      "French": "Décembre"
+    }
+  },
+  "Places": {
+    "beach": {
+      "English": "Beach",
+      "French": "Plage"
+    },
+    "city": {
+      "English": "City",
+      "French": "Ville"
+    },
+    "forest": {
+      "English": "Forest",
+      "French": "Forêt"
+    },
+    "garden": {
+      "English": "Garden",
+      "French": "Jardin"
+    },
+    "market": {
+      "English": "Market",
+      "French": "Marché"
+    },
+    "mountain": {
+      "English": "Mountain",
+      "French": "Montagne"
+    },
+    "ocean": {
+      "English": "Ocean",
+      "French": "Océan"
+    },
+    "park": {
+      "English": "Park",
+      "French": "Parc"
+    },
+    "river": {
+      "English": "River",
+      "French": "Rivière"
+    },
+    "village": {
+      "English": "Village",
+      "French": "Village"
+    }
+  },
+  "Weather": {
+    "cloudy": {
+      "English": "Cloudy",
+      "French": "Nuageux"
+    },
+    "foggy": {
+      "English": "Foggy",
+      "French": "Brumeux"
+    },
+    "hot": {
+      "English": "Hot",
+      "French": "Chaud"
+    },
+    "humid": {
+      "English": "Humid",
+      "French": "Humide"
+    },
+    "rainy": {
+      "English": "Rainy",
+      "French": "Pluvieux"
+    },
+    "snowy": {
+      "English": "Snowy",
+      "French": "Enneigé"
+    },
+    "sunny": {
+      "English": "Sunny",
+      "French": "Ensoleillé"
+    },
+    "windy": {
+      "English": "Windy",
+      "French": "Venté"
+    }
+  }
+}

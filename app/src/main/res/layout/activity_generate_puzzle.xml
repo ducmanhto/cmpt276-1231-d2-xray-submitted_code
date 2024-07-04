@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity = "center"
+    android:orientation ="vertical"
+    android:background="@color/black"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintVertical_bias="0.0"
+    tools:context=".controllers.GenerateActivity">
+
+    <LinearLayout
+        android:id="@+id/generate_puzzle_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+
+    <Button
+        android:text="@string/back_button"
+        android:id="@+id/back_btn"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/PresetWordLists"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/back_btn"
+        android:text="@string/word_lists_text"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:text="@string/numbers_button"
+        android:id="@+id/numbers_btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PresetWordLists"
+        android:layout_toLeftOf="@+id/colours_btn"
+        android:textColor="@color/black" />
+    <Button
+        android:text="@string/colours_button"
+        android:id="@+id/colours_btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PresetWordLists"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black" />
+
+    <Button
+        android:text="@string/food_button"
+        android:id="@+id/food_btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PresetWordLists"
+        android:layout_toRightOf="@+id/colours_btn"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black" />
+
+    <Button
+        android:text="@string/dates_button"
+        android:id="@+id/dates_btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numbers_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@+id/places_btn"
+        android:textColor="@color/black" />
+
+    <Button
+        android:text="@string/places_button"
+        android:id="@+id/places_btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/colours_btn"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black" />
+
+    <Button
+        android:text="@string/weather_button"
+        android:id="@+id/weather_btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/food_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/places_btn"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:text="@string/language_difficulty_text"
+        android:id="@+id/LanguageDifficulty"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/places_btn"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:text="@string/easy_button"
+        android:id="@+id/easy_language_btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LanguageDifficulty"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@+id/medium_language_btn"
+        android:textColor="@color/black" />
+
+    <Button
+        android:text="@string/medium_button"
+        android:id="@+id/medium_language_btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LanguageDifficulty"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black" />
+
+    <Button
+        android:text="@string/hard_button"
+        android:id="@+id/hard_language_btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LanguageDifficulty"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/medium_language_btn"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:text="@string/puzzle_difficulty_text"
+        android:id="@+id/PuzzleDifficulty"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/medium_language_btn"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/normal_puzzle_btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PuzzleDifficulty"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@id/difficult_puzzle_btn"
+        android:text="@string/normal_button"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/difficult_puzzle_btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PuzzleDifficulty"
+        android:layout_centerHorizontal="true"
+        android:text="@string/difficult_button"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:text="@string/language_mode_text"
+        android:id="@+id/LanguageMode"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/normal_puzzle_btn"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/english_btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LanguageMode"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@+id/french_btn"
+        android:text="@string/english_button"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/french_btn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LanguageMode"
+        android:layout_centerHorizontal="true"
+        android:text="@string/french_button"
+        android:textColor="@color/black" />
+
+    <Button
+        android:text="@string/generate_puzzle_button"
+        android:id="@+id/generatepuzzlebtn"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/green_rounded_button"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+</RelativeLayout>
